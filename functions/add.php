@@ -22,8 +22,9 @@
             else {
                 $result = mysqli_query($dbc, "INSERT INTO tblsubject(subject_code, subject_name) VALUES('$code','$name')");
                 echo "<font color='green'>Data added successfully.";
+                echo "<br/><a href= '../index.php'>View Result</a>";
             }
         }
-        
+        ?>
     </body>
 </html>
