@@ -17,6 +17,11 @@
                 <td>Subject Name</td>
                 <td><input type="text" name="name"></td>
             </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" name="Submit" value="Add"></td>
+            </tr>
+        </table>
+    </form>
 </body>
-
 </html>
