@@ -17,6 +17,7 @@
                 if(empty($name)) {
                     echo "<font color='red'>Subject Name field is empty.</font><br/>";
                 }
+                echo "<br/><a href=javascript:self.history.back();Go Back</a>";
             }
         }
         
