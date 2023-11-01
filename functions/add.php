@@ -14,7 +14,9 @@
                 if(empty($code)) {
                     echo "<font color='red'>Subject Code field is empty.</font><br/>";
                 }
-                if(empty)
+                if(empty($name)) {
+                    echo "<font color='red'>Subject Name field is empty.</font><br/>";
+                }
             }
         }
         
