@@ -6,6 +6,12 @@
         $name=$_POST['name'];
         
         if(empty($code) || empty($name)) {
+            if(empty($code)) {
+                echo "<front color='red'>Subject Code field is empty.</font><br/>";
+            }
+            if(empty($name)) {
+                echo "<font color='red'>Subject Name field is empty.</font><br/>";
+            }
         }
     }
 ?>
