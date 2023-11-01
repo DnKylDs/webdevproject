@@ -16,6 +16,9 @@
         <h1>Edit Subject</h1>
         <a href ="../index.php">Home</a>
         <br/><br/>
-        <form name="form1" method="post" action="../functions/edit.php>
+        <form name="form1" method="post" action="../functions/edit.php">
+            <table border="0">
+                <tr>
+                    <td>Subject Code</td>
     </body>
 </html>
