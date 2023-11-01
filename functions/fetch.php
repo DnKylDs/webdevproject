@@ -1,5 +1,5 @@
 <?php
 
-    $query = "SELECT * FROM tblsubject";
+    $query = "SELECT * from tblsubject";
     $result = mysql_query($dbc, $query);
 ?>
